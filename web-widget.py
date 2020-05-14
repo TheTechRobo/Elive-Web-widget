@@ -21,7 +21,7 @@ from gi.repository import WebKit2, Gtk
 window = Gtk.Window()
 webview = WebKit2.WebView()
 webview.load_uri("http://wttr.in")
-window.set_title("WeatherApplet")
+window.set_title("WeatherWidg")
 window.set_default_size(800,600)
 window.add(webview)
 window.show_all()
